@@ -199,8 +199,6 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="DebugCommand.cs" />
-    <Compile Include="MainGame.cs" />
     <Compile Include="ViewModels\GridViewModel.cs" />
     <Compile Include="Views\AdvancedGhostOptionWindow.xaml.cs">
       <DependentUpon>AdvancedGhostOptionWindow.xaml</DependentUpon>

@@ -11,7 +11,13 @@ namespace Core
     /// </summary>
     public class FieldPoint
     {
+        /// <summary>
+        /// X coordinate
+        /// </summary>
         public int X { get; set; }
+        /// <summary>
+        /// Y coordinate
+        /// </summary>
         public int Y { get; set; }
         /// <summary>
         /// Innitialize obj and writes both coords

@@ -10,11 +10,11 @@ none
 false
 TRACE
 E:\яЯя\ВСЕ\Задание\Pacman_root\Pacman\Pacman\App.xaml
-8605529392
+91698526116
 
-15823788091
+14-1723790457
 165-189436134
-MainWindow.xaml;Views\DieRestartWindow.xaml;Views\InfoView.xaml;Views\MenuView.xaml;Views\OptionsWindow.xaml;Views\Options_AIWindow.xaml;Views\PlayerNameWindow.xaml;Views\RecordsWindow.xaml;
+MainWindow.xaml;Views\AdvancedGhostOptionWindow.xaml;Views\DieRestartWindow.xaml;Views\InfoView.xaml;Views\MenuView.xaml;Views\OptionsWindow.xaml;Views\Options_AIWindow.xaml;Views\PlayerNameWindow.xaml;Views\RecordsWindow.xaml;
 
 False
 

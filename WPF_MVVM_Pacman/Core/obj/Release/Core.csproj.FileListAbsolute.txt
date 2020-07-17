@@ -254,3 +254,5 @@ E:\яЯя\ВСЕ\Задание\Pacman_root\Pacman\Core\obj\Release\Core.csproj.
 E:\яЯя\ВСЕ\Задание\Pacman_root\Pacman\Core\obj\Release\Core.csproj.CopyComplete
 E:\яЯя\ВСЕ\Задание\Pacman_root\Pacman\Core\obj\Release\Core.dll
 E:\яЯя\ВСЕ\Задание\Pacman_root\Pacman\Core\obj\Release\Core.pdb
+E:\яЯя\ВСЕ\Задание\Pacman_root\Pacman\Core\bin\Release\Logs.dll
+E:\яЯя\ВСЕ\Задание\Pacman_root\Pacman\Core\bin\Release\Logs.pdb

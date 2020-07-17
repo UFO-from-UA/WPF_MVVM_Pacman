@@ -371,7 +371,7 @@ namespace Pacman.ViewModels
                     {
                         if (fileName.Contains(".dll"))
                         {
-                            if (fileName.Contains("Core") || fileName.Contains("Prism") || fileName.Contains("ValueTuple")) { continue; }
+                            if (fileName.Contains("Core") || fileName.Contains("Prism") ||  fileName.Contains("Logs")  || fileName.Contains("ValueTuple")) { continue; }
                             Type[] file = Assembly.LoadFrom(fileName).GetTypes();
                             var AIfromConfiguration = ConfigurationManager.AppSettings["AI_behavior"];
                             int AI_index = 0;
@@ -445,36 +445,6 @@ namespace Pacman.ViewModels
             {
                 Logger.Add(new Log(this.GetType().Name, MethodBase.GetCurrentMethod().Name, $"DB Error", ex));
             }
-            #region UoW unused and Excluding
-#if false
-            //var optionsBuilder = new DbContextOptionsBuilder<ApplicationContext>();
-            var a = 2;
-
-            //var options = optionsBuilder
-            //        .UseSqlServer(@"Server=(localdb)\mssqllocaldb;Database=UserScore;Trusted_Connection=True;")
-            //        .Options;
-
-            ////using (ApplicationContext db = new ApplicationContext(options))
-            //using (ApplicationContext db = new ApplicationContext())
-            //{
-            //    //db.Add(new UserScore { Name="asd",Score=99});
-            //    var blog = db.Usersaa;
-            //    var sdf = (blog.AsEnumerable().ElementAt(0));
-            //    try
-            //    {
-            //        var s = "";
-            //        var users = db.Usersaa.ToList();
-            //        foreach (UserScore u in users)
-            //            s += $"{u.Score}.{u.Name}";
-            //    }
-            //    catch (Exception ex)
-            //    {
-            //        var a = ex.Message;
-            //    }
-
-            //}        
-#endif
-            #endregion
         }
 
         private void DrawGhost(Grid grid, AbstractGhost ghost)

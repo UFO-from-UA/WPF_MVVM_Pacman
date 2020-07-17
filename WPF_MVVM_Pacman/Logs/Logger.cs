@@ -17,7 +17,9 @@ namespace Logs
         /// <param name="LogFilePath"> File path where logs saving.</param>
         /// </summary>
         public static string LogFilePath { get; private set; } = GetDefaultLogFilePath();
-
+        /// <summary>
+        /// List of  logs
+        /// </summary>
         private static List<Log> Logs { get; set; } = new List<Log>();
      
         /// <summary>

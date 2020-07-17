@@ -14,9 +14,6 @@
         Title="Pacman" Height="700" Width="1000"
         ResizeMode="NoResize"
     >
-    <Window.DataContext>
-        <local:MainGame/>
-    </Window.DataContext>
     <Window.Resources>
         <Style TargetType="MenuItem">
             <Setter Property="FontFamily" Value="Franklin Gothic Demi"/>

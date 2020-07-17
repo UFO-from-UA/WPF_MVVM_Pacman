@@ -408,7 +408,6 @@ E:\яЯя\ВСЕ\Задание\Pacman_root\Pacman\Pacman\obj\Debug\Views\MenuVi
 E:\яЯя\ВСЕ\Задание\Pacman_root\Pacman\Pacman\obj\Debug\Views\OptionsWindow.g.cs
 E:\яЯя\ВСЕ\Задание\Pacman_root\Pacman\Pacman\obj\Debug\Views\Options_AIWindow.g.cs
 E:\яЯя\ВСЕ\Задание\Pacman_root\Pacman\Pacman\obj\Debug\App.g.cs
-E:\яЯя\ВСЕ\Задание\Pacman_root\Pacman\Pacman\obj\Debug\GeneratedInternalTypeHelper.g.cs
 E:\яЯя\ВСЕ\Задание\Pacman_root\Pacman\Pacman\obj\Debug\Pacman_MarkupCompile.cache
 E:\яЯя\ВСЕ\Задание\Pacman_root\Pacman\Pacman\obj\Debug\Pacman_MarkupCompile.lref
 E:\яЯя\ВСЕ\Задание\Pacman_root\Pacman\Pacman\obj\Debug\MainWindow.baml

@@ -308,3 +308,5 @@ E:\яЯя\ВСЕ\Задание\Pacman_root\Pacman\DataLayer\obj\Release\DataLay
 E:\яЯя\ВСЕ\Задание\Pacman_root\Pacman\DataLayer\obj\Release\DataLayer.csproj.CopyComplete
 E:\яЯя\ВСЕ\Задание\Pacman_root\Pacman\DataLayer\obj\Release\DataLayer.dll
 E:\яЯя\ВСЕ\Задание\Pacman_root\Pacman\DataLayer\obj\Release\DataLayer.pdb
+E:\яЯя\ВСЕ\Задание\Pacman_root\Pacman\DataLayer\bin\Release\Logs.dll
+E:\яЯя\ВСЕ\Задание\Pacman_root\Pacman\DataLayer\bin\Release\Logs.pdb

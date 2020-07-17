@@ -42,6 +42,10 @@ namespace Core
             }
         }
 
+        /// <summary>
+        /// is available point
+        /// </summary>
+        /// <returns>Random available point</returns>
         public bool IsAvailablePoint(FieldPoint p)
         {
             if (_fieldMatrix[p.X,p.Y]==0)
@@ -52,6 +56,10 @@ namespace Core
         }
 
         #region Select a field point
+        /// <summary>
+        /// Get a random point
+        /// </summary>
+        /// <returns>Random available point</returns>
         public FieldPoint RandomPoint()
         {
             int count = 5;
@@ -68,7 +76,10 @@ namespace Core
 
             return AvailableFieldPoints[_r.Next(AvailableFieldPoints.Count)];
         }
-
+        /// <summary>
+        /// Get a random point near player 
+        /// </summary>
+        /// <returns> available point in area of player</returns>
         public FieldPoint RandomPointNearPlayer(int area, PacmanEssence player)
         {
 
@@ -81,16 +92,6 @@ namespace Core
             else
             {
                 x_start = 0;
-                //int tmp = area;
-                //while (tmp >= 0)
-                //{
-                //    tmp--;
-                //    if (player.Point.X - tmp >= 0)
-                //    {
-                //        x_start = player.Point.X - tmp;
-                //        break;
-                //    }
-                //}
             }
             if (player.Point.X + area < _fieldRange)
             {
@@ -99,17 +100,6 @@ namespace Core
             else
             {
                 x_end = _fieldRange - 1;
-
-                //int tmp = area;
-                //while (player.Point.X + tmp > field_range)
-                //{
-                //    tmp--;
-                //    if (player.Point.X + tmp < field_range)
-                //    {
-                //        x_end = player.Point.X + tmp;
-                //        break;
-                //    }
-                //}
             }
             if (player.Point.Y + area < _fieldRange)
             {
@@ -143,6 +133,11 @@ namespace Core
             return AvailableFieldPoints[_r.Next(AvailableFieldPoints.Count)];
         }
 
+        /// <summary>
+        /// Get player point
+        /// </summary>
+        /// <param name="player">Pacman</param>
+        /// <returns>player point </returns>
         public FieldPoint PlayerPoint(PacmanEssence player)
         {
             return new FieldPoint(player.Point.X, player.Point.Y);

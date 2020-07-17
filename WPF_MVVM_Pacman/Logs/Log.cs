@@ -6,10 +6,16 @@ using System.Threading.Tasks;
 
 namespace Logs
 {
+    /// <summary>
+    ///  Write to file full information about game progress or any exceptions
+    /// </summary>
     public class Log
     {
         private DateTime _timeStamp;
 
+        /// <summary>
+        /// Date when log was added
+        /// </summary>
         public DateTime Time
         {
             get { return _timeStamp; }
@@ -18,6 +24,9 @@ namespace Logs
 
         private string _methodName;
 
+        /// <summary>
+        /// Application from what method  log was added
+        /// </summary>
         public string MethodName
         {
             get { return _methodName; }
@@ -26,6 +35,9 @@ namespace Logs
 
         private string _className;
 
+        /// <summary>
+        /// Type
+        /// </summary>
         public string ClassName
         {
             get { return _className; }
@@ -34,6 +46,9 @@ namespace Logs
 
         private string _logMessage;
 
+        /// <summary>
+        /// Custom log message
+        /// </summary>
         public string LogMessage
         {
             get { return _logMessage; }
@@ -43,6 +58,9 @@ namespace Logs
 
         private Exception _exception;
 
+        /// <summary>
+        /// Appplication exception
+        /// </summary>
         public Exception Exception
         {
             get { return _exception; }
@@ -50,6 +68,11 @@ namespace Logs
         }
 
 
+        /// <summary>
+        /// Create a log
+        /// </summary>
+        /// <param name="logMessage">Custom message</param>
+        /// <param name="ex">Exception</param>
         public Log(string methodName, string className,string logMessage,Exception ex = null)
         {
             Time = DateTime.Now;

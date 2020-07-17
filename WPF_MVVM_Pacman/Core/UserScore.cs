@@ -6,9 +6,15 @@ using System.Threading.Tasks;
 
 namespace Core
 {
+    /// <summary>
+    /// User information
+    /// </summary>
     public class UserScore
     {
         private int _score;
+        /// <summary>
+        /// User Score
+        /// </summary>
         public int Score
         {
             get { return _score; }
@@ -16,6 +22,9 @@ namespace Core
         }
 
         private string _name;
+        /// <summary>
+        /// User Name
+        /// </summary>
         public string Name
         {
             get { return _name; }
@@ -23,6 +32,9 @@ namespace Core
         }
 
         private DateTime _date;
+        /// <summary>
+        /// Date
+        /// </summary>
         public DateTime Date
         {
             get { return _date; }

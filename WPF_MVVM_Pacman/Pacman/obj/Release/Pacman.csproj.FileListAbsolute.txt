@@ -409,7 +409,6 @@ E:\яЯя\ВСЕ\Задание\Pacman_root\Pacman\Pacman\obj\Release\Views\Menu
 E:\яЯя\ВСЕ\Задание\Pacman_root\Pacman\Pacman\obj\Release\Views\OptionsWindow.g.cs
 E:\яЯя\ВСЕ\Задание\Pacman_root\Pacman\Pacman\obj\Release\Views\Options_AIWindow.g.cs
 E:\яЯя\ВСЕ\Задание\Pacman_root\Pacman\Pacman\obj\Release\App.g.cs
-E:\яЯя\ВСЕ\Задание\Pacman_root\Pacman\Pacman\obj\Release\GeneratedInternalTypeHelper.g.cs
 E:\яЯя\ВСЕ\Задание\Pacman_root\Pacman\Pacman\obj\Release\Pacman_MarkupCompile.cache
 E:\яЯя\ВСЕ\Задание\Pacman_root\Pacman\Pacman\obj\Release\Pacman_MarkupCompile.lref
 E:\яЯя\ВСЕ\Задание\Pacman_root\Pacman\Pacman\obj\Release\MainWindow.baml
@@ -430,3 +429,5 @@ E:\яЯя\ВСЕ\Задание\Pacman_root\Pacman\Pacman\obj\Release\Views\Reco
 E:\яЯя\ВСЕ\Задание\Pacman_root\Pacman\Pacman\obj\Release\Views\InfoView.baml
 E:\яЯя\ВСЕ\Задание\Pacman_root\Pacman\Pacman\obj\Release\Views\PlayerNameWindow.baml
 E:\яЯя\ВСЕ\Задание\Pacman_root\Pacman\Pacman\obj\Release\Views\RecordsWindow.baml
+E:\яЯя\ВСЕ\Задание\Pacman_root\Pacman\Pacman\obj\Release\Views\AdvancedGhostOptionWindow.g.cs
+E:\яЯя\ВСЕ\Задание\Pacman_root\Pacman\Pacman\obj\Release\Views\AdvancedGhostOptionWindow.baml

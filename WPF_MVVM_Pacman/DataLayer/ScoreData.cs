@@ -9,12 +9,20 @@ using System.Threading.Tasks;
 
 namespace DataLayer
 {
+    /// <summary>
+    /// EF Data base Firs model
+    /// </summary>
     public class ScoreData
     {
         public ScoreData()
         {
         }
 
+        /// <summary>
+        /// Save Results
+        /// </summary>
+        /// <param name="playerName">Player Name</param>
+        /// <param name="score">Player score</param>
         public static void SaveResult(string playerName,int score)
         {
             using (UserScoreEntities db = new UserScoreEntities())
@@ -25,6 +33,10 @@ namespace DataLayer
             }
         }
 
+        /// <summary>
+        /// Get 10 top results
+        /// </summary>
+        /// <returns></returns>
         public static List<Score> GetTopResult()
         {
             using (UserScoreEntities db = new UserScoreEntities())
@@ -38,7 +50,6 @@ namespace DataLayer
                 {
                     resList = resList.Take(resList.Count).ToList();
                 }
-
               
                return resList;
             }

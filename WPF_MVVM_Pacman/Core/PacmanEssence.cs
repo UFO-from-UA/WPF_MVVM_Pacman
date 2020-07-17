@@ -7,54 +7,53 @@ using System.Windows.Controls;
 
 namespace Core
 {
+    /// <summary>
+    /// All iformation about pacman in game
+    /// </summary>
     public class PacmanEssence
     {
         private FieldPoint _point;
         private FieldPoint _nextPoint;
         private int _iamageAngle;
+        /// <summary>
+        /// Angle to rotate main image model
+        /// </summary>
         public int ImgAngle
         {
             get { return _iamageAngle; }
             set { _iamageAngle = value; }
         }
+        /// <summary>
+        /// Point where pacman now
+        /// </summary>
         public FieldPoint Point
         {
             get { return _point; }
-            /*private*/ set { _point = value; }
+            set { _point = value; }
         }
+        /// <summary>
+        /// pacman move to this point
+        /// </summary>
         public FieldPoint NextPoint
         {
             get { return _nextPoint; }
             set { _nextPoint = value; }
         }
-        public List<Image> _animationStateImage;
+        /// <summary>
+        /// Pacman model
+        /// </summary>
         public Image MainImage;
-        private int _aniationState = 0;
-        public Image NewStateImage
-        {
-            get { return ChangeImage(); }
-        }
-
-        private Image ChangeImage()
-        {
-            if (_aniationState==0)
-            {
-                _aniationState = 1;
-                return _animationStateImage[0];
-            }
-            else
-            {
-                _aniationState = 0;
-                return _animationStateImage[1];
-            }
-        }
 
         public PacmanEssence()        {        }
+        /// <summary>
+        ///     Create pacman
+        /// </summary>
+        /// <param name="p">Start point</param>
+        /// <param name="img">Main model</param>
         public PacmanEssence(FieldPoint p,Image img)
         {
             Point = p;
             MainImage = img;
-            _animationStateImage = new List<Image>();
         }
     }
 }

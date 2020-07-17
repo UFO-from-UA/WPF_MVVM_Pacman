@@ -38,3 +38,5 @@ E:\яЯя\ВСЕ\Задание\Pacman_root\Pacman\Servises\obj\Release\Servises
 E:\яЯя\ВСЕ\Задание\Pacman_root\Pacman\Servises\obj\Release\Servises.csproj.CopyComplete
 E:\яЯя\ВСЕ\Задание\Pacman_root\Pacman\Servises\obj\Release\Servises.dll
 E:\яЯя\ВСЕ\Задание\Pacman_root\Pacman\Servises\obj\Release\Servises.pdb
+E:\яЯя\ВСЕ\Задание\Pacman_root\Pacman\Servises\bin\Release\Logs.dll
+E:\яЯя\ВСЕ\Задание\Pacman_root\Pacman\Servises\bin\Release\Logs.pdb

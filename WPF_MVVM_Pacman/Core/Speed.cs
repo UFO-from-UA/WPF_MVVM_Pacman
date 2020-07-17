@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Core
 {
+    /// <summary>
+    /// Enum of ghost speeds
+    /// </summary>
     public enum Speeds
     {
         VaryLow = 75,

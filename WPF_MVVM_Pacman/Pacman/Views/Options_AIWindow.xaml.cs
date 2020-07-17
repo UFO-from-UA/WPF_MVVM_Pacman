@@ -73,7 +73,8 @@ namespace Pacman.Views
                 {
                     if (fileName.Contains(".dll"))
                     {
-                        if (fileName.Contains("Core") || fileName.Contains("Prism") || fileName.Contains("ValueTuple")) { continue; }
+                        
+                        if (fileName.Contains("Core") || fileName.Contains("Prism") ||  fileName.Contains("Logs")  || fileName.Contains("ValueTuple")) { continue; }
                         Type[] file = Assembly.LoadFrom(fileName).GetTypes();
                         //var tempName = fileName.Substring(fileName.LastIndexOf('\\') + 1);
                         foreach (var item in file)
